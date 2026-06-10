@@ -23,5 +23,5 @@ flowchart TD
 
     B -->|"Agent User Account"| E["Digital worker / AI teammate"]
     E --> E1["Agent has user-like account"]
-    E1 --> E2["Scope Conditional Access to Agent Users / Agent User Accounts"]
+    E1 --> E2["Scope Conditional Access to Agent Users (Preview)"]
 ```
