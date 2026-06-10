@@ -9,17 +9,19 @@ but whether it is the evaluated subject for the resource access.
 ```
 
 
+```mermaid
 flowchart TD
-    A[Resource access request] --> B{Who is the token subject?}
+    A["Resource access request"] --> B{"Who is the token subject?"}
 
-    B -->|Human user| C[Delegated / OBO agent flow]
-    C --> C1[Agent acts on behalf of user]
-    C1 --> C2[Scope Conditional Access to Users & Groups]
+    B -->|"Human user"| C["Delegated / OBO agent flow"]
+    C --> C1["Agent acts on behalf of user"]
+    C1 --> C2["Scope Conditional Access to Users & Groups"]
 
-    B -->|Agent Identity| D[Autonomous / app-like agent flow]
-    D --> D1[Agent accesses resource with own identity]
-    D1 --> D2[Scope Conditional Access to Agent Identities]
+    B -->|"Agent Identity"| D["Autonomous / app-like agent flow"]
+    D --> D1["Agent accesses resource with own identity"]
+    D1 --> D2["Scope Conditional Access to Agent Identities"]
 
-    B -->|Agent User Account| E[Digital worker / AI teammate]
-    E --> E1[Agent has user-like account]
-    E1 --> E2[Scope Conditional Access to Agent Users / Agent User Accounts]
+    B -->|"Agent User Account"| E["Digital worker / AI teammate"]
+    E --> E1["Agent has user-like account"]
+    E1 --> E2["Scope Conditional Access to Agent Users / Agent User Accounts"]
+```
