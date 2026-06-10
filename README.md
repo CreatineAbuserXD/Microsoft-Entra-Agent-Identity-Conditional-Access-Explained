@@ -1,5 +1,25 @@
 # Microsoft-Entra-Agent-Identity-Conditional-Access-Explained
 
+# Why this Repo exists
+
+```
+Microsoft Learn is the best place to understand the technical depth behind Microsoft Entra, Agent Identities, Conditional Access, and modern authentication flows.
+
+However, the official documentation can be hard to translate into a quick mental model for discussions, design reviews, meetings, or remediation planning.
+
+This repository is meant to provide a pragmatic entry point.
+
+It does not replace Microsoft Learn and it does not provide full sequence diagrams for every authentication flow. Sequence diagrams are still one of the best ways to describe authentication flows in security engineering and are worth learning.
+
+The goal is simpler:
+
+Help people quickly understand which Conditional Access scope applies depending on the evaluated token subject:
+
+Human user
+Agent Identity
+Agent User
+Delegated / On-Behalf-Of agent flow
+```
 
 ![Conditional Access for Agents](AgenticEntraID.png)
 
