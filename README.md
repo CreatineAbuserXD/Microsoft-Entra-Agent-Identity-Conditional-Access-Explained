@@ -25,3 +25,16 @@ flowchart TD
     E --> E1["Agent has user-like account"]
     E1 --> E2["Scope Conditional Access to Agent Users (Preview)"]
 ```
+
+
+
+
+
+
+
+## SOURCES:
+-https://learn.microsoft.com/en-us/entra/identity/conditional-access/agent-id?utm_source=chatgpt.com
+-https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-autonomous-agents?tabs=use-custom-security-attributes
+-https://learn.microsoft.com/en-us/entra/agent-id/agent-autonomous-app-oauth-flow
+-https://learn.microsoft.com/en-us/entra/agent-id/what-are-agent-identities?utm_source=chatgpt.com
+-https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-autonomous-agents?utm_source=chatgpt.com&tabs=use-custom-security-attributes
