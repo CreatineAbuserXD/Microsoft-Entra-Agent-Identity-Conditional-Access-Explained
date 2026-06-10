@@ -2,11 +2,11 @@
 
 This repository explains how Microsoft Entra Conditional Access applies to Agent Identities, Agent Users, and delegated On-Behalf-Of agent flows.
 
-´´
+```
 Agent Identity is both an Entra object and a Conditional Access assignment type.
 The important security question is not whether an Agent Identity exists in the flow,
 but whether it is the evaluated subject for the resource access.
-´´
+```
 
 
 flowchart TD
