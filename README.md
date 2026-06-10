@@ -1,5 +1,9 @@
 # Microsoft-Entra-Agent-Identity-Conditional-Access-Explained
 
+```md
+![Conditional Access for Agents](./https://github.com/CreatineAbuserXD/Microsoft-Entra-Agent-Identity-Conditional-Access-Explained/blob/main/AgenticEntraID.png)
+```
+
 This repository explains how Microsoft Entra Conditional Access applies to Agent Identities, Agent Users, and delegated On-Behalf-Of agent flows.
 
 ```
