@@ -1,6 +1,7 @@
 # Microsoft-Entra-Agent-Identity-Conditional-Access-Explained
 
 ## Why this repository exists
+This repository explains how Microsoft Entra Conditional Access applies to Agent Identities, Agent Users, and delegated On-Behalf-Of agent flows.
 
 Microsoft Learn explains the technical details in depth, but the topic can be hard to translate into a simple mental model for meetings, design reviews, and remediation planning.
 
@@ -8,10 +9,11 @@ This repository provides a pragmatic entry point to understand how Microsoft Ent
 
 It does not replace Microsoft Learn. Sequence diagrams and detailed authentication flows are still worth learning, especially in security engineering.
 
+## Summary 
+
 ![Conditional Access for Agents](AgenticEntraID.png)
 
 
-This repository explains how Microsoft Entra Conditional Access applies to Agent Identities, Agent Users, and delegated On-Behalf-Of agent flows.
 
 ```
 Agent Identity is both an Entra object and a Conditional Access assignment type.
